@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    CODEPEN
+    https://codepen.io/navimaurya/project/editor/ZWdgVm 
+    GITHUB
+    
+
+
+
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main" style="padding: 4vw;background-image: linear-gradient(0deg, #007f35, #00ffa9);">
+        <header class="header">
+            <nav class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                    <div class="nav-title">
+                        Carousel
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#" target="_blank">Home</a>
+                    <a href="#" target="_blank">Featurs</a>
+                    <a href="#" target="_blank">Details</a>
+                    <a href="#" target="_blank">About</a>
+                    <a href="#" target="_blank" style="background: #070080; color: #fff;">Contact</a>
+                </div>
+            </nav>
+            <div class="carousel-container">
+                <div class="img-content img-content-active">
+                    <img src="./assets/img/0.png" alt="">
+                    <div class="img-description">
+                        <h1>Sheikh Zayed Rd</h1>
+                        <span>Dubai, United Arab Emirates</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="./assets/img/1.png" alt="">
+                    <div class="img-description">
+                        <h1>Burj Khalifa</h1>
+                        <span>Sunrise shot of Downtown Dubai and Burj Khalifa.</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="./assets/img/2.png" alt="">
+                    <div class="img-description">
+                        <h1>Williamsburg Bridge</h1>
+                        <span>New York, United States</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="./assets/img/3.png" alt="">
+                    <div class="img-description">
+                        <h1>Hawa Mahal</h1>
+                        <span>Jaipur, Rajasthan, India</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="./assets/img/4.png" alt="">
+                    <div class="img-description">
+                        <h1>Taj Mahal</h1>
+                        <span>UttarPradesh, India</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="./assets/img/5.png" alt="">
+                    <div class="img-description">
+                        <h1>Desney</h1>
+                        <span>Burbank, California, United States</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blocks-container"></div>
+            <button class="leftbtn" onclick="changeSlide('left')"></button>
+            <div class="center">
+                <div class="img-index"></div>
+            </div>
+            <button class="rightbtn" onclick="changeSlide('right')"></button>
+        </header>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
