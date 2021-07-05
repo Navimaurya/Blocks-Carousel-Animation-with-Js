@@ -9,5 +9,5 @@ Create your own: [Click Here_](https://github.com/Navimaurya/Blocks-Carousel-Ani
 
 ![preview GIF](https://github.com/Navimaurya/Blocks-Carousel-Animation-with-Js/blob/main/preview/preview.gif?raw=true)
 
-##Details
+## Details
 The images used in this tutorial are taken from [unplashe.com](https://unsplash.com/)
