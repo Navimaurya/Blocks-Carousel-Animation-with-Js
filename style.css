@@ -274,6 +274,7 @@ button {
   transition: 500ms ease-in-out;
 }
 
+
 @keyframes fadeOut {
   from {
     opacity: 1;
